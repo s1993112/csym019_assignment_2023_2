@@ -24,6 +24,9 @@ function getUserPassword($mysqli, $username) {
 }
 function insertCourse($mysqli, $courseData) {
     $query = "INSERT INTO Courses (name, overview, highlights, contents, details, modules, enhanced_learning, credit_scheme, entry_requirements, fees_and_funding, faqs) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
+//*****************MUHAMMAD SAYEM*****************
+//*****************22830734***********************
+//*****************CSYM019************************
 
     $stmt = $mysqli->prepare($query);
     $stmt->bind_param(
