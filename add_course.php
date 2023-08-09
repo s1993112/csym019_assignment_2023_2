@@ -23,7 +23,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         'fees_and_funding' => $_POST['fees_and_funding'],
         'faqs' => $_POST['faqs']
     ];
-
+//*****************MUHAMMAD SAYEM*****************
+//*****************22830734***********************
+//*****************CSYM019************************
     $mysqli = connectDB();
 
     if (insertCourse($mysqli, $courseData)) {
