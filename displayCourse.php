@@ -22,6 +22,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['delete-button'])) {
         }
     }
 }
+//*****************MUHAMMAD SAYEM*****************
+//*****************22830734***********************
+//*****************CSYM019************************
 
 $query = "SELECT * FROM Courses";
 $result = $mysqli->query($query);
@@ -59,6 +62,9 @@ while ($row = $result->fetch_assoc()) {
             <td>{$row['faqs']}</td> 
           </tr>";
 }
+//*****************MUHAMMAD SAYEM*****************
+//*****************22830734***********************
+//*****************CSYM019************************
 
 echo "</table>";
 echo "<input type='submit' name='delete-button' value='Delete Selected Courses'>";
