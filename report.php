@@ -17,6 +17,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         generateReport($mysqli, $_POST['courses']);
     }
 }
+//*****************MUHAMMAD SAYEM*****************
+//*****************22830734***********************
+//*****************CSYM019************************
 
 $courses = getCourses($mysqli);
 
@@ -53,6 +56,9 @@ foreach ($courses as $row) {
             <td>{$row['faqs']}</td>
           </tr>";
 }
+//*****************MUHAMMAD SAYEM*****************
+//*****************22830734***********************
+//*****************CSYM019************************
 
 echo "</table>";
 echo "<input type='submit' value='Generate Report'>";
