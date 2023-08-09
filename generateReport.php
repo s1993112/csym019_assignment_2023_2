@@ -1,3 +1,6 @@
+//*****************MUHAMMAD SAYEM*****************
+//*****************22830734***********************
+//*****************CSYM019************************
 <?php
 include 'header.php';
 require_once 'db.php';
@@ -32,6 +35,9 @@ if (isset($_POST['courses'])) {
     // Prepare SQL query to select only submitted courses
     $ids = implode(",", array_map('intval', $_POST['courses']));
     $query = "SELECT * FROM Courses WHERE id IN ($ids)";
+//*****************MUHAMMAD SAYEM*****************
+//*****************22830734***********************
+//*****************CSYM019************************
 
     // Execute the query
     $result = $mysqli->query($query);
